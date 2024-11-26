@@ -8,4 +8,18 @@ ng(){
 
 res=0
 
-out=$()
+#tank選択
+out=$(echo "tank" | ./kadai1_test.bash) 
+[ $out = "tank:" ] || ng "$LINENO"
+
+#dps選択
+out=$(echo "dps" | ./kadai1_test.bash)
+[ $out = "dps:" ] || ng "$LINENO"
+
+#support選択
+out=$(echo "support" | ./kadai1_test.bash)
+[ $out = "support:" ] || ng "$LINENO"
+
+#実行成功
+[ "$res" = 0 ] && echo OK
+exit $res
