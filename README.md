@@ -16,8 +16,8 @@ tank,dps,supportのいずれかのロールを選択すると、そのロール�
 
 
 ## 使い方
-- 実行例
+- 実行例  
 ```./kadai1```
-- 実行結果
-ロールを選択してください 'tank' 'dps' 'support' tank
+- 実行結果  
+ロールを選択してください 'tank' 'dps' 'support' tank  
 tank: ジャンカークイーン
