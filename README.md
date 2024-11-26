@@ -9,15 +9,15 @@ tank,dps,supportのいずれかのロールを選択すると、そのロール�
 ## インストール方法
 以下の手順に従って作業してください。
 リポジトリをクローン
-git clone https://github.com/saku62/robosys2024
+```git clone https://github.com/saku62/robosys2024```
 
 ディレクトリに移動
-cd robosys2024
+```cd robosys2024```
 
 
 ## 使い方
--実行例
-./kadai1
--実行結果
+- 実行例
+```./kadai1```
+- 実行結果
 ロールを選択してください 'tank' 'dps' 'support' tank
 tank: ジャンカークイーン
