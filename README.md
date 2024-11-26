@@ -16,4 +16,8 @@ cd robosys2024
 
 
 ## 使い方
-
+-実行例
+./kadai1
+-実行結果
+ロールを選択してください 'tank' 'dps' 'support' tank
+tank: ジャンカークイーン
