@@ -1,12 +1,12 @@
 # robosys2024
 ロボットシステム学授業用
 
-## kadai1コマンドの概要
+## hero_selectコマンドの概要
 オーバーウォッチ２というゲームのヒーローをランダムに選択してくれるプログラムです.  
 tank,dps,supportのいずれかのロールを選択すると,そのロールのヒーローをランダムに選択してくれます.
 
 
-## インストール方法
+## 準備
 以下の手順に従って作業してください.  
 ```bash
 リポジトリをクローン  
@@ -14,9 +14,6 @@ git clone https://github.com/saku62/robosys2024.git
 
 ディレクトリに移動  
 cd robosys2024
-
-依存関係をインストール  
-pip install -r requirements.txt
 ```
 
 
