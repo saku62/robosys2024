@@ -19,12 +19,10 @@ cd robosys2024
 
 ## 使い方
 - 実行例  
-```./kadai1```
+```./hero_select tank```
 
 - 実行結果  
 ```
-ロールを選択してください 'tank' 'dps' 'support' :
-(tankを選択した場合)   
 tank: ジャンカークイーン
 ```  
 'tank' 'dps' 'support'は大文字,小文字に対応しています.　　
