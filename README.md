@@ -30,11 +30,11 @@ tank,dps,support```
 ```./hero_select tank　　
 tank: ジャンカークイーン
 ```
-```./hero_select dps　　
-tank: ソジョーン
+```./hero_select dps  
+dps: ソジョーン
 ```
-```./hero_select support　　
-tank: ジュノ
+```./hero_select support  
+support: ジュノ
 ```  
 　　
 
