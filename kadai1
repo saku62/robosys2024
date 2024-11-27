@@ -11,7 +11,7 @@ categories = {
 }
 
 
-user_input = input("ロールを選択してください 'tank' 'dps' 'support' ").strip().lower()
+user_input = input("ロールを選択してください 'tank' 'dps' 'support' :  ").strip().lower()
 
 
 
