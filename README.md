@@ -27,18 +27,12 @@ tank,dps,support```
 
 - 実行例
 以下の例では、各roleで実行した場合の実行結果を記載しています  
-```
-./hero_select tank　　
-tank: ジャンカークイーン
-```
-```
-./hero_select dps  
-dps: ソジョーン
-```
-```
-./hero_select support  
-support: ジュノ
-```  
+```./hero_select tank　　
+tank: ジャンカークイーン```
+```./hero_select dps  
+dps: ソジョーン```
+```./hero_select support  
+support: ジュノ```  
 　　
 
 
