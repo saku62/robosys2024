@@ -26,5 +26,6 @@ if len(sys.argv) != 2:
 
 user_input = sys.argv[1].strip().lower()
 
+
 result = role(user_input)
 print(result)
