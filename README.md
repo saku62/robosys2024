@@ -14,6 +14,9 @@ git clone https://github.com/saku62/robosys2024
 
 ディレクトリに移動  
 cd robosys2024
+
+依存関係をインストール  
+pip install -r requirements.txt
 ```
 
 
