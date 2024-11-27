@@ -5,6 +5,8 @@
 
 ## hero_selectコマンドの概要
 
+[![test](https://github.com/saku62/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/saku62/robosys2024/actions/workflows/test.yml)
+
 オーバーウォッチ２というゲームのヒーローをランダムに選択してくれるプログラムです。  
 
 tank,dps,supportのいずれかのロールを選択すると、そのロールのヒーローをランダムに選択してくれます。
