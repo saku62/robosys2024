@@ -2,12 +2,12 @@
 ロボットシステム学授業用
 
 ## kadai1コマンドの概要
-オーバーウォッチ２というゲームのヒーローをランダムに選択してくれるプログラムです。  
-tank,dps,supportのいずれかのロールを選択すると、そのロールのヒーローをランダムに選択してくれます。
+オーバーウォッチ２というゲームのヒーローをランダムに選択してくれるプログラムです.  
+tank,dps,supportのいずれかのロールを選択すると,そのロールのヒーローをランダムに選択してくれます.
 
 
 ## インストール方法
-以下の手順に従って作業してください。  
+以下の手順に従って作業してください.  
 ```bash
 リポジトリをクローン  
 git clone https://github.com/saku62/robosys2024.git
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 (tankを選択した場合)   
 tank: ジャンカークイーン
 ```  
-'tank' 'dps' 'support'は大文字、小文字に対応しています。　　
+'tank' 'dps' 'support'は大文字、小文字に対応しています.　　
 
 
 ## 必要なソフトウェア
@@ -41,6 +41,8 @@ tank: ジャンカークイーン
 - Ubuntu 24.04.1 LTS
 
 ## ライセンス
-- このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
+- このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布および使用が許可されます.
+- このパッケージの```kadai1``` ```kadai1_test.bash```以外のコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+    - [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
 © 2024 Yuta Sakusabe
