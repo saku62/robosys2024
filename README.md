@@ -87,8 +87,8 @@ support: ジュノ
  
   - [とほほのPython入門 - 演算子]( https://www.tohoho-web.com/python/operators.html )
  
-  - https://style.potepan.com/articles/33682.html
+  - [【GitHub】READMEって使ってる？使い方と書き方を確認しよう]( https://style.potepan.com/articles/33682.html )
  
-  - https://qiita.com/Tadataka_Takahashi/items/1f667e11f80423e2dda1
+  - [Pythonのf文字列：便利な使い方10選]( https://qiita.com/Tadataka_Takahashi/items/1f667e11f80423e2dda1 )
  
-  - https://note.nkmk.me/python-random-choice-sample-choices/
+  - [Pythonでリストからランダムに要素を選択するchoice, sample, choices]( https://note.nkmk.me/python-random-choice-sample-choices/ )
