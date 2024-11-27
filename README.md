@@ -20,8 +20,8 @@ cd robosys2024
 ## 使い方  
 ```hero_select```は大文字、小文字の入力に対応しています。  
 ```./hero_select role```のように、```./hero_select```の後に選択したいroleを入力してください。  
-role一覧　　
-tank,dps,support  
+role一覧  　
+```tank,dps,support```  
 
 
 - 実行例
