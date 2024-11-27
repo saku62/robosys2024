@@ -83,4 +83,4 @@ support: ジュノ
 
 - ウェブサイト
 
-  -sasa
+  - sasa
