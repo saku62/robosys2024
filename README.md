@@ -100,3 +100,5 @@ support: ジュノ
   - [素敵なREADMEの書き方]( https://qiita.com/koeri3/items/f85a617dcb6efebb2cab )
  
   - [GitHub Actionsのバッジをリンク付きでREADMEに追加する]( https://qiita.com/akameco/items/e474691964703033e18d )
+ 
+  - [README編集後にgit pushしたら ! [rejected] master -> master (fetch first) errorと言われる]( https://qiita.com/zenfumi/items/7425b8e9a807659137ae )
