@@ -8,11 +8,11 @@ tank,dps,supportのいずれかのロールを選択すると、そのロール�
 
 ## インストール方法
 以下の手順に従って作業してください。  
-```リポジトリをクローン  
+``` リポジトリをクローン  
 git clone https://github.com/saku62/robosys2024
 
 ディレクトリに移動  
-cd robosys2024```
+cd robosys2024 ```
 
 
 ## 使い方
