@@ -30,7 +30,7 @@ pip install -r requirements.txt
 (tankを選択した場合)   
 tank: ジャンカークイーン
 ```  
-'tank' 'dps' 'support'は大文字、小文字に対応しています.　　
+'tank' 'dps' 'support'は大文字,小文字に対応しています.　　
 
 
 ## 必要なソフトウェア
