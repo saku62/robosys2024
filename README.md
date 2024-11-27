@@ -35,7 +35,8 @@ role一覧   　
 ```tank,dps,support```  
 
 
-- 実行例  
+- 実行例
+
 以下の例では、各roleで実行した場合の実行結果を記載しています  
 ```
 ./hero_select tank
@@ -65,10 +66,13 @@ support: ジュノ
   - テスト済みバージョン: 3.7 ~ 3.12
 
 ## テスト環境
+
 - Ubuntu 24.04.1 LTS
 
 ## ライセンス
+
 - このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布および使用が許可されます。
+  
 - このパッケージの```kadai1``` ```kadai1_test.bash```以外のコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
     - [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
