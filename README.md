@@ -26,7 +26,9 @@ cd robosys2024
 ロールを選択してください 'tank' 'dps' 'support' :
 tankを選択   
 tank: ジャンカークイーン
-```
+```  
+'tank' 'dps' 'support'は大文字、小文字に対応しています。　　
+
 
 ## 必要なソフトウェア
 - Python
