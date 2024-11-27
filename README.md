@@ -10,7 +10,7 @@ tank,dps,supportのいずれかのロールを選択すると、そのロール�
 以下の手順に従って作業してください。  
 ```bash
 リポジトリをクローン  
-git clone https://github.com/saku62/robosys2024
+git clone https://github.com/saku62/robosys2024.git
 
 ディレクトリに移動  
 cd robosys2024
