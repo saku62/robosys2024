@@ -2,27 +2,29 @@
 # SPDX-FileCopyrightText: 2024 Yuta Sakusabe <s23c1062mq@s.chibakoudai.jp>
 # SPDX-License-Identifier: BSD-3-Clause
 
-import random
 import sys
+import random
 
-# ロールとキャラクターの定義
-categories = {
-    "tank": ["D.VA", "ウィンストン", "オリーサ", "ザリア", "シグマ", "ジャンカークイーン", "ドゥームフィスト", "マウガ", "ラインハルト", "ラマットラ", "レッキングボール", "ロードホッグ"],
-    "dps": ["アッシュ", "ウィドウメイカー", "エコー", "キャスディ", "ゲンジ", "シンメトラ", "ジャンクラット", "ソジョーン", "ソルジャー76", "ソンブラ", "トレーサー", "トールビョーン", "ハンゾー", "バスティオン", "ファラ", "ベンチャー", "メイ", "リーパー"],
-    "support": ["アナ", "イラリー", "キリコ", "ジュノ", "ゼニヤッタ", "バティスト", "ブリギッテ", "マーシー", "モイラ", "ライフウィーバー", "ルシオ"]
-}
+def role(a):
+    TANK = ["D.VA", "ウィンストン", "オリーサ", "ザリア", "シグマ", "ジャンカークイーン", "ドゥームフィスト", "マウガ", "ラインハルト", "ラマットラ", "レッキングボール", "ロードホッグ"]
+    DPS = ["アッシュ", "ウィドウメイカー", "エコー", "キャスディ", "ゲンジ", "シンメトラ", "ジャンクラット", "ソジョーン", "ソルジャー76", "ソンブラ", "トレーサー", "トールビョーン", "ハンゾー", "バスティオン", "ファラ", "ベンチャー", "メイ", "リーパー"]
+    SUPPORT = ["アナ", "イラリー", "キリコ", "ジュノ", "ゼニヤッタ", "バティスト", "ブリギッテ", "マーシー", "モイラ", "ライフウィーバー", "ルシオ"]
 
-# コマンドライン引数の確認
+    if a in ("tank"):
+        return (f"tank: {random.choice(TANK)}")
+    elif a in ("dps"):
+        return (f"dps: {random.choice(DPS)}")
+    elif a in ("support"):
+        return (f"support: {random.choice(SUPPORT)}")
+    else:
+       return "無効な入力です"
+
 if len(sys.argv) != 2:
-    print("使用方法: python3 script_name.py <role>")
-    print("例: python3 script_name.py tank")
+    print("無効な入力です")
+    print("入力例：./hero_select tank")
     sys.exit(1)
 
-# ユーザー入力の取得
 user_input = sys.argv[1].strip().lower()
 
-# 入力の処理
-if user_input in categories:
-    result = random.choice(categories[user_input])
-    print(f"{user_input}: {result}")
-
+result = role(user_input)
+print(result)
