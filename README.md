@@ -41,10 +41,16 @@ role一覧   　
 ./hero_select tank　　
 tank: ジャンカークイーン
 ```
-```./hero_select dps  
-dps: ソジョーン```
-```./hero_select support  
-support: ジュノ```  
+
+```
+./hero_select dps  
+dps: ソジョーン
+```
+
+```
+./hero_select support  
+support: ジュノ
+```  
 　　
 
 
