@@ -23,7 +23,8 @@ cd robosys2024
 
 - 実行結果  
 ```
-ロールを選択してください 'tank' 'dps' 'support' tank  
+ロールを選択してください 'tank' 'dps' 'support' :
+tankを選択   
 tank: ジャンカークイーン
 ```
 
