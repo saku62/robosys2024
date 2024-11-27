@@ -13,7 +13,6 @@ tank,dps,supportのいずれかのロールを選択すると、そのロール�
 git clone https://github.com/saku62/robosys2024.git
 
 ディレクトリに移動  
-```
 cd robosys2024
 ```
 
