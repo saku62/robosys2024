@@ -35,7 +35,7 @@ role一覧   　
 ```tank,dps,support```  
 
 
-- 実行例
+- 実行例  
 以下の例では、各roleで実行した場合の実行結果を記載しています  
 ```
 ./hero_select tank
