@@ -98,3 +98,5 @@ support: ジュノ
   - [【初心者向け】【入門】GitHub Actionsとは？書き方、デバッグ設定、runs-onやcheckoutなどの仕組みや構造も含めて徹底解説]( https://qiita.com/shun198/items/14cdba2d8e58ab96cf95 )
  
   - [素敵なREADMEの書き方]( https://qiita.com/koeri3/items/f85a617dcb6efebb2cab )
+ 
+  - [GitHub Actionsのバッジをリンク付きでREADMEに追加する]( https://qiita.com/akameco/items/e474691964703033e18d )
