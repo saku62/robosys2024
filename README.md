@@ -85,7 +85,7 @@ support: ジュノ
 
   - [[5分でマスター]初心者はまずREADMEを書け[テンプレート付き]]( https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f )
  
-  - https://www.tohoho-web.com/python/operators.html
+  - [とほほのPython入門 - 演算子]( https://www.tohoho-web.com/python/operators.html )
  
   - https://style.potepan.com/articles/33682.html
  
