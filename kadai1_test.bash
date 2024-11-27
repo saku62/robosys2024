@@ -10,15 +10,15 @@ res=0
 
 #tank選択
 out=$(echo "tank" | ./kadai1)
-[[ $out =~ "tank:"* ]] || ng "$LINENO"
+[[ $out =~ "tank:" ]] || ng "$LINENO"
 
 #dps選択
 out=$(echo "dps" | ./kadai1)
-[[ $out =~ "dps:"* ]] || ng "$LINENO"
+[[ $out =~ "dps:" ]] || ng "$LINENO"
 
 #support選択
 out=$(echo "support" | ./kadai1)
-[[ $out =~ "support:"* ]] || ng "$LINENO"
+[[ $out =~ "support:" ]] || ng "$LINENO"
 
 #実行成功
 [ "$res" = 0 ] && echo OK
