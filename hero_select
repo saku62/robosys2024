@@ -1,0 +1,28 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Yuta Sakusabe <s23c1062mq@s.chibakoudai.jp>
+# SPDX-License-Identifier: BSD-3-Clause
+
+import random
+import sys
+
+# ロールとキャラクターの定義
+categories = {
+    "tank": ["D.VA", "ウィンストン", "オリーサ", "ザリア", "シグマ", "ジャンカークイーン", "ドゥームフィスト", "マウガ", "ラインハルト", "ラマットラ", "レッキングボール", "ロードホッグ"],
+    "dps": ["アッシュ", "ウィドウメイカー", "エコー", "キャスディ", "ゲンジ", "シンメトラ", "ジャンクラット", "ソジョーン", "ソルジャー76", "ソンブラ", "トレーサー", "トールビョーン", "ハンゾー", "バスティオン", "ファラ", "ベンチャー", "メイ", "リーパー"],
+    "support": ["アナ", "イラリー", "キリコ", "ジュノ", "ゼニヤッタ", "バティスト", "ブリギッテ", "マーシー", "モイラ", "ライフウィーバー", "ルシオ"]
+}
+
+# コマンドライン引数の確認
+if len(sys.argv) != 2:
+    print("使用方法: python3 script_name.py <role>")
+    print("例: python3 script_name.py tank")
+    sys.exit(1)
+
+# ユーザー入力の取得
+user_input = sys.argv[1].strip().lower()
+
+# 入力の処理
+if user_input in categories:
+    result = random.choice(categories[user_input])
+    print(f"{user_input}: {result}")
+
