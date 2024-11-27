@@ -31,3 +31,4 @@ tank: ジャンカークイーン
 
 ## テスト環境
 - Ubuntu 24.04.1 LTS
+© 2024 Sakusabe Yuta
