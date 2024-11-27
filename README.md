@@ -69,7 +69,7 @@ support: ジュノ
 
 ## テスト環境
 
-- ubuntu-latest/ubuntu-22.04
+- ubuntu-latest/ubuntu-24.01.LTS
 
 ## ライセンス
 
