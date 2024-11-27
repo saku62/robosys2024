@@ -27,7 +27,7 @@ pip install -r requirements.txt
 - 実行結果  
 ```
 ロールを選択してください 'tank' 'dps' 'support' :
-tankを選択   
+(tankを選択した場合)   
 tank: ジャンカークイーン
 ```  
 'tank' 'dps' 'support'は大文字、小文字に対応しています。　　
