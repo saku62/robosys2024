@@ -83,6 +83,7 @@ support: ジュノ
 
 # 参照
 
+- ryuichiueda/my_slides robosys_2024
 - ウェブサイト
 
   - [[5分でマスター]初心者はまずREADMEを書け[テンプレート付き]]( https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f )
