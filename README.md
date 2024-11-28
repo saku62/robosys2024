@@ -83,7 +83,8 @@ support: ジュノ
 
 # 参照
 
-- [スライド（CC-BY-SA 4.0 by Ryuichi Ueda）](ryuichiueda/my_slides robosys_2024)
+- スライド
+  - [ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
 - ウェブサイト
 
   - [[5分でマスター]初心者はまずREADMEを書け[テンプレート付き]]( https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f )
