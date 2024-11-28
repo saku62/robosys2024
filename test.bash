@@ -9,17 +9,21 @@ ng(){
 
 res=0
 
+TANK=("D.VA" "ウィンストン" "オリーサ" "ザリア" "シグマ" "ジャンカークイーン" "ドゥームフィスト" "マウガ" "ラインハルト" "ラマットラ" "レッキングボール" "ロードホッグ")
+DPS=("アッシュ" "ウィドウメイカー" "エコー" "キャスディ" "ゲンジ" "シンメトラ" "ジャンクラット" "ソジョーン" "ソルジャー76" "ソンブラ" "トレーサー" "トールビョーン" "ハンゾー" "バスティオン" "ファラ" "ベンチャー" "メイ" "リーパー")
+SUPPORT=("アナ" "イラリー" "キリコ" "ジュノ" "ゼニヤッタ" "バティスト" "ブリギッテ" "マーシー" "モイラ" "ライフウィーバー" "ルシオ")
+
 #tank選択
-out=$(./hero_select tank)
-[[ "$out" =~ tank ]] || ng "$LINENO"
+out=$(./hero_select tank )
+[[ " ${TANK[@]} " =~ "${out} " ]] || ng "$LINENO"
 
 #dps選択
 out=$(./hero_select dps)
-[[ "$out" =~ dps ]] || ng "$LINENO"
+[[ "${DPS[@]}" =~ "${out}" ]] || ng "$LINENO"
 
 #support選択
 out=$(./hero_select support)
-[[ "$out" =~ support ]] || ng "$LINENO"
+[[ "${SUPPORT[@]}" =~ "${out}" ]] || ng "$LINENO"
 
 #実行成功
 [ "$res" = 0 ] && echo OK

@@ -11,11 +11,11 @@ def role(a):
     SUPPORT = ["アナ", "イラリー", "キリコ", "ジュノ", "ゼニヤッタ", "バティスト", "ブリギッテ", "マーシー", "モイラ", "ライフウィーバー", "ルシオ"]
 
     if a in ("tank"):
-        return (f"tank: {random.choice(TANK)}")
+        return (f"{random.choice(TANK)}")
     elif a in ("dps"):
-        return (f"dps: {random.choice(DPS)}")
+        return (f"{random.choice(DPS)}")
     elif a in ("support"):
-        return (f"support: {random.choice(SUPPORT)}")
+        return (f"{random.choice(SUPPORT)}")
     else:
        return "無効な入力です"
 
