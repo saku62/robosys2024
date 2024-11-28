@@ -102,3 +102,5 @@ support: ジュノ
   - [GitHub Actionsのバッジをリンク付きでREADMEに追加する]( https://qiita.com/akameco/items/e474691964703033e18d )
  
   - [README編集後にgit pushしたら ! [rejected] master -> master (fetch first) errorと言われる]( https://qiita.com/zenfumi/items/7425b8e9a807659137ae )
+ 
+  - [len関数の使い方(オブジェクトの長さや要素数を取得する)](https://www.javadrive.jp/python/function/index4.html)
