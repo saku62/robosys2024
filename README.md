@@ -108,3 +108,7 @@ support: ジュノ
   - [len関数の使い方(オブジェクトの長さや要素数を取得する)](https://www.javadrive.jp/python/function/index4.html)
  
   - [Python 文字列のメソッドチェーン：strip()、lower()、replace() を組み合わせて文字列処理を効率化](https://qiita.com/Tadataka_Takahashi/items/7dafa151df7f9cf7a79f)
+ 
+  - [Bash の配列 - Bash スクリプトで文字列の配列を宣言する方法](https://www.freecodecamp.org/japanese/news/bash-array-how-to-declare-an-array-of-strings-in-a-bash-script/)
+ 
+  - [Bash での =~ 演算子の使用](https://ja.linux-console.net/?p=13560)
