@@ -112,3 +112,5 @@ support: ジュノ
   - [Bash の配列 - Bash スクリプトで文字列の配列を宣言する方法](https://www.freecodecamp.org/japanese/news/bash-array-how-to-declare-an-array-of-strings-in-a-bash-script/)
  
   - [Bash での =~ 演算子の使用](https://ja.linux-console.net/?p=13560)
+ 
+  - [Pythonのin演算子でリストなどに特定の要素が含まれるか判定](https://note.nkmk.me/python-in-basic/)
