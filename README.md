@@ -41,21 +41,21 @@ role一覧   　
 
 以下の例では、各roleで実行した場合の実行結果を記載しています  
 ```
-./hero_select tank
+echo tank | ./hero_select
 
-tank: ジャンカークイーン
+ジャンカークイーン
 ```
 
 ```
-./hero_select dps
+echo dps | ./hero_select
 
-dps: ソジョーン
+ソジョーン
 ```
 
 ```
-./hero_select support
+echo support | ./hero_select
 
-support: ジュノ
+ジュノ
 ```  
 　　
 
