@@ -86,24 +86,14 @@ support: ジュノ
 - スライド
   - [ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
 - ウェブサイト
-
-  - [[5分でマスター]初心者はまずREADMEを書け[テンプレート付き]]( https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f )
  
   - [とほほのPython入門 - 演算子]( https://www.tohoho-web.com/python/operators.html )
  
-  - [【GitHub】READMEって使ってる？使い方と書き方を確認しよう]( https://style.potepan.com/articles/33682.html )
+  - [Pythonのin演算子でリストなどに特定の要素が含まれるか判定](https://note.nkmk.me/python-in-basic/)
  
   - [Pythonのf文字列：便利な使い方10選]( https://qiita.com/Tadataka_Takahashi/items/1f667e11f80423e2dda1 )
  
   - [Pythonでリストからランダムに要素を選択するchoice, sample, choices]( https://note.nkmk.me/python-random-choice-sample-choices/ )
- 
-  - [【初心者向け】【入門】GitHub Actionsとは？書き方、デバッグ設定、runs-onやcheckoutなどの仕組みや構造も含めて徹底解説]( https://qiita.com/shun198/items/14cdba2d8e58ab96cf95 )
- 
-  - [素敵なREADMEの書き方]( https://qiita.com/koeri3/items/f85a617dcb6efebb2cab )
- 
-  - [GitHub Actionsのバッジをリンク付きでREADMEに追加する]( https://qiita.com/akameco/items/e474691964703033e18d )
- 
-  - [README編集後にgit pushしたら ! [rejected] master -> master (fetch first) errorと言われる]( https://qiita.com/zenfumi/items/7425b8e9a807659137ae )
  
   - [len関数の使い方(オブジェクトの長さや要素数を取得する)](https://www.javadrive.jp/python/function/index4.html)
  
@@ -113,4 +103,18 @@ support: ジュノ
  
   - [Bash での =~ 演算子の使用](https://ja.linux-console.net/?p=13560)
  
-  - [Pythonのin演算子でリストなどに特定の要素が含まれるか判定](https://note.nkmk.me/python-in-basic/)
+ 
+  - [[5分でマスター]初心者はまずREADMEを書け[テンプレート付き]]( https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f )
+ 
+  - [【GitHub】READMEって使ってる？使い方と書き方を確認しよう]( https://style.potepan.com/articles/33682.html )
+ 
+  - [コードブロックの作成と強調表示](https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
+ 
+  - [README編集後にgit pushしたら ! [rejected] master -> master (fetch first) errorと言われる]( https://qiita.com/zenfumi/items/7425b8e9a807659137ae) 
+ 
+  - [【初心者向け】【入門】GitHub Actionsとは？書き方、デバッグ設定、runs-onやcheckoutなどの仕組みや構造も含めて徹底解説]( https://qiita.com/shun198/items/14cdba2d8e58ab96cf95 )
+
+  - [素敵なREADMEの書き方]( https://qiita.com/koeri3/items/f85a617dcb6efebb2cab )
+ 
+  - [GitHub Actionsのバッジをリンク付きでREADMEに追加する]( https://qiita.com/akameco/items/e474691964703033e18d )
+ 
