@@ -10,22 +10,20 @@ def role(a):
     DPS = ["アッシュ", "ウィドウメイカー", "エコー", "キャスディ", "ゲンジ", "シンメトラ", "ジャンクラット", "ソジョーン", "ソルジャー76", "ソンブラ", "トレーサー", "トールビョーン", "ハンゾー", "バスティオン", "ファラ", "ベンチャー", "メイ", "リーパー"]
     SUPPORT = ["アナ", "イラリー", "キリコ", "ジュノ", "ゼニヤッタ", "バティスト", "ブリギッテ", "マーシー", "モイラ", "ライフウィーバー", "ルシオ"]
 
-    if a in ("tank"):
-        return (f"{random.choice(TANK)}")
-    elif a in ("dps"):
-        return (f"{random.choice(DPS)}")
-    elif a in ("support"):
-        return (f"{random.choice(SUPPORT)}")
+    if a == "tank":
+        return random.choice(TANK)
+    elif a == "dps":
+        return random.choice(DPS)
+    elif a == "support":
+        return random.choice(SUPPORT)
     else:
        return "無効な入力です"
 
-if len(sys.argv) != 2:
-    print("無効な入力です")
-    print("入力例：./hero_select tank")
-    sys.exit(1)
 
-user_input = sys.argv[1].strip().lower()
+# 標準入力からデータを受け取る
+for line in sys.stdin:
+    user_input = line.strip().lower()  # 改行や空白を削除して小文字に変換
+    result = role(user_input)
+    print(result)
 
 
-result = role(user_input)
-print(result)

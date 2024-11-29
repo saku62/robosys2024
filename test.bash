@@ -1,4 +1,4 @@
-#!/bin/bash -xv
+#!/bin/bash
 # SPDX-FileCopyrightText: 2024 Yuta Sakusabe <s23c1062mq@s.chibakoudai.jp>
 # SPDX-License-Identifier: BSD-3-Clause
 ng(){
@@ -14,15 +14,15 @@ DPS=("アッシュ" "ウィドウメイカー" "エコー" "キャスディ" "�
 SUPPORT=("アナ" "イラリー" "キリコ" "ジュノ" "ゼニヤッタ" "バティスト" "ブリギッテ" "マーシー" "モイラ" "ライフウィーバー" "ルシオ")
 
 #tank選択
-out=$(./hero_select tank )
+out=$(echo tank | ./hero_select)
 [[ " ${TANK[@]} " =~ "${out} " ]] || ng "$LINENO"
 
 #dps選択
-out=$(./hero_select dps)
+out=$(echo dps | ./hero_select)
 [[ "${DPS[@]}" =~ "${out}" ]] || ng "$LINENO"
 
 #support選択
-out=$(./hero_select support)
+out=$(echo support | ./hero_select)
 [[ "${SUPPORT[@]}" =~ "${out}" ]] || ng "$LINENO"
 
 #実行成功
