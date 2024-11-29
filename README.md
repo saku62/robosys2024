@@ -16,44 +16,61 @@ tank,dps,supportのいずれかのロールを選択すると、そのロール�
 
 以下の手順に従って作業してください。  
 
-```bash
-
 リポジトリをクローン
-git clone https://github.com/saku62/robosys2024
 
-ディレクトリに移動
-cd robosys2024
+```bash
+$ git clone https://github.com/saku62/robosys2024.git
 ```
 
+
+ディレクトリに移動
+
+```bash
+$ cd robosys2024
+```
+
+権限を付与
+
+```bash
+$ chmod +X  hero_select
+```
 
 ## 使い方  
 
 ```hero_select```は大文字、小文字の入力に対応しています。  
 
-```./hero_select role```のように、```./hero_select```の後に選択したいroleを入力してください。  
+```echo role | ./hero_select```のように、選択したいroleを入力してください。  
 
 role一覧   　
 
 ```tank,dps,support```  
 
 
+
 - 実行例
 
-以下の例では、各roleで実行した場合の実行結果を記載しています  
+以下の例では、各roleで実行した場合の実行結果を記載しています。  
+
+tankを選択
+
 ```
-echo tank | ./hero_select
+$ echo tank | ./hero_select
 
 ジャンカークイーン
 ```
 
+dpsを選択
+
 ```
-echo dps | ./hero_select
+$ echo dps | ./hero_select
 
 ソジョーン
 ```
 
+supportを選択
+
 ```
-echo support | ./hero_select
+$ echo support | ./hero_select
 
 ジュノ
 ```  
@@ -89,13 +106,7 @@ echo support | ./hero_select
  
   - [とほほのPython入門 - 演算子]( https://www.tohoho-web.com/python/operators.html )
  
-  - [Pythonのin演算子でリストなどに特定の要素が含まれるか判定](https://note.nkmk.me/python-in-basic/)
- 
-  - [Pythonのf文字列：便利な使い方10選]( https://qiita.com/Tadataka_Takahashi/items/1f667e11f80423e2dda1 )
- 
   - [Pythonでリストからランダムに要素を選択するchoice, sample, choices]( https://note.nkmk.me/python-random-choice-sample-choices/ )
- 
-  - [len関数の使い方(オブジェクトの長さや要素数を取得する)](https://www.javadrive.jp/python/function/index4.html)
  
   - [Python 文字列のメソッドチェーン：strip()、lower()、replace() を組み合わせて文字列処理を効率化](https://qiita.com/Tadataka_Takahashi/items/7dafa151df7f9cf7a79f)
  
@@ -103,6 +114,7 @@ echo support | ./hero_select
  
   - [Bash での =~ 演算子の使用](https://ja.linux-console.net/?p=13560)
  
+  - [Pythonの標準入力sys.stdinの個人的まとめ](https://qiita.com/naoya_ok/items/cb0b2368f83aa0eaec4d)
  
   - [[5分でマスター]初心者はまずREADMEを書け[テンプレート付き]]( https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f )
  
@@ -118,3 +130,4 @@ echo support | ./hero_select
  
   - [GitHub Actionsのバッジをリンク付きでREADMEに追加する]( https://qiita.com/akameco/items/e474691964703033e18d )
  
+
