@@ -32,7 +32,7 @@ $ cd robosys2024
 権限を付与
 
 ```bash
-$ chmod +x  hero_select
+$ chmod +x hero_select
 ```
 
 ## 使い方  
