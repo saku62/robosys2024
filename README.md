@@ -2,7 +2,6 @@
 
 ロボットシステム学授業用
 
-
 ## hero_selectコマンドの概要
 
 [![test](https://github.com/saku62/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/saku62/robosys2024/actions/workflows/test.yml)
@@ -133,5 +132,3 @@ $ echo support | ./hero_select
   - [素敵なREADMEの書き方]( https://qiita.com/koeri3/items/f85a617dcb6efebb2cab )
  
   - [GitHub Actionsのバッジをリンク付きでREADMEに追加する]( https://qiita.com/akameco/items/e474691964703033e18d )
- 
-
