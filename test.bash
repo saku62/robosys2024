@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2024 Yuta Sakusabe <s23c1062mq@s.chibakoudai.jp>
 # SPDX-License-Identifier: BSD-3-Clause
 ng(){
@@ -9,21 +9,43 @@ ng(){
 
 res=0
 
-TANK=("D.VA" "ウィンストン" "オリーサ" "ザリア" "シグマ" "ジャンカークイーン" "ドゥームフィスト" "マウガ" "ラインハルト" "ラマットラ" "レッキングボール" "ロードホッグ")
-DPS=("アッシュ" "ウィドウメイカー" "エコー" "キャスディ" "ゲンジ" "シンメトラ" "ジャンクラット" "ソジョーン" "ソルジャー76" "ソンブラ" "トレーサー" "トールビョーン" "ハンゾー" "バスティオン" "ファラ" "ベンチャー" "メイ" "リーパー")
-SUPPORT=("アナ" "イラリー" "キリコ" "ジュノ" "ゼニヤッタ" "バティスト" "ブリギッテ" "マーシー" "モイラ" "ライフウィーバー" "ルシオ")
-
+#正しい入力
 #tank選択
 out=$(echo tank | ./hero_select)
-[[ " ${TANK[@]} " =~ "${out} " ]] || ng "$LINENO"
+[ "$?" = 0 ] || ng "$LINENO"
+
+out=$(echo TANK | ./hero_select)
+[ "$?" = 0 ] || ng "$LINENO"
 
 #dps選択
 out=$(echo dps | ./hero_select)
-[[ "${DPS[@]}" =~ "${out}" ]] || ng "$LINENO"
+[ "$?" = 0 ] || ng "$LINENO"
+
+out=$(echo DPS | ./hero_select)
+[ "$?" = 0 ] || ng "$LINENO"
 
 #support選択
 out=$(echo support | ./hero_select)
-[[ "${SUPPORT[@]}" =~ "${out}" ]] || ng "$LINENO"
+[ "$?" = 0 ] || ng "$LINENO"
+
+out=$(echo SUPPORT | ./hero_select)
+[ "$?" = 0 ] || ng "$LINENO"
+
+
+
+#無効な入力
+out=$(echo "" | ./hero_select)
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
+
+out=$(echo "あ" | ./hero_select)
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
+
+out=$(echo "tank dps support" | ./hero_select)
+[ "$?" = 1 ] || ng "$LINENO"
+[ "${out}" = "" ] || ng "$LINENO"
+
 
 #実行成功
 [ "$res" = 0 ] && echo OK

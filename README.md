@@ -32,7 +32,7 @@ $ cd robosys2024
 権限を付与
 
 ```bash
-$ chmod +X  hero_select
+$ chmod +x  hero_select
 ```
 
 ## 使い方  
@@ -86,7 +86,7 @@ $ echo support | ./hero_select
 
 ## テスト環境
 
-- ubuntu-latest/ubuntu-22.04
+- GitHub Actionsのubuntu-latest/ubuntu-22.04
 
 ## ライセンス
 
@@ -115,6 +115,8 @@ $ echo support | ./hero_select
   - [Bash での =~ 演算子の使用](https://ja.linux-console.net/?p=13560)
  
   - [Pythonの標準入力sys.stdinの個人的まとめ](https://qiita.com/naoya_ok/items/cb0b2368f83aa0eaec4d)
+
+  - [【Python入門】3つのexitを使い分けよう！](https://www.sejuku.net/blog/24331)
  
   - [[5分でマスター]初心者はまずREADMEを書け[テンプレート付き]]( https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f )
  
