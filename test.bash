@@ -10,21 +10,21 @@ ng(){
 res=0
 
 ### 正しい入力 ###
-###tank選択###
+#tank選択#
 out=$(echo tank | ./hero_select)
 [ "$?" = 0 ] || ng "$LINENO"
 
 out=$(echo TANK | ./hero_select)
 [ "$?" = 0 ] || ng "$LINENO"
 
-###dps選択###
+#dps選択#
 out=$(echo dps | ./hero_select)
 [ "$?" = 0 ] || ng "$LINENO"
 
 out=$(echo DPS | ./hero_select)
 [ "$?" = 0 ] || ng "$LINENO"
 
-###support選択###
+#support選択#
 out=$(echo support | ./hero_select)
 [ "$?" = 0 ] || ng "$LINENO"
 
@@ -38,15 +38,15 @@ out=$(echo "" | ./hero_select)
 [ "$?" = 1 ] || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(echo "あ" | ./hero_select)
+out=$(echo あ | ./hero_select)
 [ "$?" = 1 ] || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(echo "tank dps support" | ./hero_select)
+out=$(echo tank dps support | ./hero_select)
 [ "$?" = 1 ] || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
 
-#実行成功
-[ "$res" = 0 ] && echo OK
+###実行成功###
+[ "{$res}" = 0 ] && echo OK
 exit $res
