@@ -118,7 +118,7 @@ $ echo support | ./hero_select
 
   - [【Python入門】3つのexitを使い分けよう！](https://www.sejuku.net/blog/24331)
 
-  - [PythonのNoneとは？基本から判定方法までを現役エンジニアが徹底解説] (https://dtnavi.tcdigital.jp/cat_system/language_124/)
+  - [PythonのNoneとは？基本から判定方法までを現役エンジニアが徹底解説](https://dtnavi.tcdigital.jp/cat_system/language_124/)
  
   - [[5分でマスター]初心者はまずREADMEを書け[テンプレート付き]]( https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f )
  
