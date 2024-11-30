@@ -3,7 +3,6 @@
 # SPDX-License-Identifier: BSD-3-Clause
 ng(){
      echo ${1}行目が違うよ
-     echo "実際の出力: $out"
      res=1
 }
 
@@ -36,15 +35,15 @@ out=$(echo SUPPORT | ./hero_select)
 ###無効な入力###
 out=$(echo "" | ./hero_select)
 [ "$?" = 1 ] || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
+[ "${out}" = "無効な入力です" ] || ng "$LINENO"
 
 out=$(echo あ | ./hero_select)
 [ "$?" = 1 ] || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
+[ "${out}" = "無効な入力です" ] || ng "$LINENO"
 
 out=$(echo tank dps support | ./hero_select)
 [ "$?" = 1 ] || ng "$LINENO"
-[ "${out}" = "" ] || ng "$LINENO"
+[ "${out}" = "無効な入力です" ] || ng "$LINENO"
 
 
 ###実行成功###
