@@ -8,6 +8,7 @@ ng(){
 
 res=0
 
+
 ### 正しい入力 ###
 #tank選択#
 out=$(echo tank | ./hero_select)
@@ -29,7 +30,6 @@ out=$(echo support | ./hero_select)
 
 out=$(echo SUPPORT | ./hero_select)
 [ "$?" = 0 ] || ng "$LINENO"
-
 
 
 ###無効な入力###
