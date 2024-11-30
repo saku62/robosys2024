@@ -23,7 +23,7 @@ def role(a):
 for line in sys.stdin:
     user_input = line.strip().lower()
     result = role(user_input)
-    if result != None:
+    if result is not None:
         print(result)
         sys.exit(0)
     else:
